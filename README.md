@@ -580,4 +580,51 @@ M ^ -A: conjunción de M y la negación de A<br>
     </tr>
     <tr>
       <td>F</td>
-      <td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+  </tbody>
+</table>
