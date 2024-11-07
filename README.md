@@ -7,10 +7,15 @@ a. 7
 Convertir 7 a binario:
 
 Se divide 7 entre 2: 7 / 2 = 3 con residuo 1. Anotamos el residuo (1).
+
 Dividimos el cociente (3) entre 2: 3 / 2 = 1 con residuo 1. Anotamos el residuo (1).
+
 luego dividimos el nuevo cociente (1) entre 2: 1 / 2 = 0 con residuo 1. Anotamos el residuo (1).
+
 en este caso el cociente es 0, terminamos las divisiones.
+
 Para formar el número binario, escribimos los residuos en orden inverso: 111.
+
 Por último lo convertimos a 8bits, añadimos ceros a la izquierda hasta completar los 8 bits: 00000111
 
 b. 45
