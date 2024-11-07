@@ -1,6 +1,7 @@
 # Tarea1MateDevs
 
 Primera Sección
+
 a. 7
 
 Convertir 7 a binario:
