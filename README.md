@@ -211,3 +211,373 @@ A ^ B: conjunción de A y B<br>
 A ^ B: Verdadera solo si A y B son verdaderas.<br>
 -(A ^ B): Invierte el valor de verdad de (A ^ B).<br>
 -(A ^ B) v C: Verdadera si al menos uno de los operandos, -(A ^ B)
+
+### c. -(A v C) ^ B
+
+<p><strong>Definición:</strong></p>
+<p>A: proposición<br>
+B: proposición<br>
+C: proposición<br>
+A v C: disyunción de A y C<br>
+-(A v C): negación de la disyunción de A y C<br>
+-(A v C) ^ B: conjunción de la negación de la disyunción de A y C con B</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>A v C</th>
+      <th>-(A v C)</th>
+      <th>-(A v C) ^ B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Evaluación:</strong><br>
+A v C: Verdadera si al menos uno de los operandos, A o C, es verdadero.<br>
+-(A v C): Invierte el valor de verdad de (A v C).<br>
+-(A v C) ^ B: Verdadera solo si ambos operandos, -(A v C) y B, son verdaderos.</p>
+
+
+
+### d. (B ^ C) ^ -(A)
+
+<p><strong>Definición:</strong></p>
+<p>A: proposición<br>
+B: proposición<br>
+C: proposición<br>
+B ^ C: conjunción de B y C<br>
+-A: negación de A<br>
+(B ^ C) ^ -(A): conjunción de la conjunción de B y C con la negación de A</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>B ^ C</th>
+      <th>-A</th>
+      <th>(B ^ C) ^ -(A)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Evaluación:</strong><br>
+B ^ C: Verdadera solo si B y C son verdaderas.<br>
+-A: Invierte el valor de verdad de A.<br>
+(B ^ C) ^ -(A): Verdadera solo si ambos operandos, (B ^ C) y -A, son verdaderos.</p>
+
+
+
+### e. (M ^ -(A)) v (-I v -(C))
+
+<p><strong>Definición:</strong></p>
+<p>A: proposición<br>
+C: proposición<br>
+I: proposición<br>
+M: proposición<br>
+-A: negación de A<br>
+M ^ -A: conjunción de M y la negación de A<br>
+-I: negación de I<br>
+-C: negación de C<br>
+-I v -C: disyunción de la negación de I con la negación de C<br>
+(M ^ -(A)) v (-I v -(C)): disyunción de la conjunción de M y la negación de A con la disyunción de la negación de I con la negación de C</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>C</th>
+      <th>I</th>
+      <th>M</th>
+      <th>-A</th>
+      <th>M ^ -A</th>
+      <th>-I</th>
+      <th>-C</th>
+      <th>-I v -C</th>
+      <th>(M ^ -(A)) v (-I v -(C))</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>F</td>
+      <td>V</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>
