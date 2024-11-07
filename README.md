@@ -129,3 +129,20 @@ Sumar 1 al complemento a uno:  Sumamos 1 al resultado del paso anterior:
 
 El resultado de la suma es la representación de -18 en binario usando complemento a dos: 11101110
 
+
+Segunda Seccion
+
+a. A ^ B
+
+Definición:
+
+A: proposición
+
+B: proposición
+
+A ^ B: conjunción (AND) de A y B
+
+Tabla de verdad:
+
+<img width="1048" alt="Captura de pantalla 2024-11-06 a la(s) 11 13 19 p  m" src="https://github.com/user-attachments/assets/479129e0-7292-4e2f-b394-f534ee79a142">
+
