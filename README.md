@@ -1,6 +1,6 @@
 # Tarea1MateDevs
 
-<h1>Primera Sección<h1/>
+Primera Sección
 
 
 
