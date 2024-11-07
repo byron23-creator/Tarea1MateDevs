@@ -1,6 +1,6 @@
 # Tarea1MateDevs
 
-Primera Sección
+<h1>Primera Sección<h1/>
 
 
 
@@ -144,5 +144,128 @@ A ^ B: conjunción (AND) de A y B
 
 Tabla de verdad:
 
-<img width="1048" alt="Captura de pantalla 2024-11-06 a la(s) 11 13 19 p  m" src="https://github.com/user-attachments/assets/479129e0-7292-4e2f-b394-f534ee79a142">
+<img width="309" alt="Captura de pantalla 2024-11-06 a la(s) 11 06 32 p  m" src="https://github.com/user-attachments/assets/32cba023-10cd-4bd8-b9d6-414c25614a47">
+
+Evaluación: La conjunción (A ^ B) es verdadera (V) solo cuando A y B son verdaderas. En cualquier otro caso, es falsa (F).
+
+
+
+b. -(A ^ B) v C
+
+Definición:
+
+A: proposición
+
+B: proposición
+
+
+C: proposición
+
+A ^ B: conjunción de A y B
+
+-(A ^ B): negación de la conjunción de A y B
+
+-(A ^ B) v C: disyunción de la negación de la conjunción de A y B con C
+
+Tabla de verdad:
+
+<img width="616" alt="Captura de pantalla 2024-11-06 a la(s) 11 07 51 p  m" src="https://github.com/user-attachments/assets/43436fef-d135-4514-bc9a-d54ef0831977">
+
+Evaluación:
+
+A ^ B: Verdadera solo si A y B son verdaderas.
+
+-(A ^ B): Invierte el valor de verdad de (A ^ B).
+
+-(A ^ B) v C: Verdadera si al menos uno de los operandos, -(A ^ B) o C, es verdadero.
+
+
+c. -(A v C) ^ B
+
+Definición:
+
+A: proposición
+
+B: proposición
+
+C: proposición
+
+A v C: disyunción de A y C
+
+-(A v C): negación de la disyunción de A y C
+
+-(A v C) ^ B: conjunción de la negación de la disyunción de A y C con B
+
+Tabla de verdad:
+
+<img width="613" alt="Captura de pantalla 2024-11-06 a la(s) 11 08 47 p  m" src="https://github.com/user-attachments/assets/1596fe31-b31f-4654-a99e-b9553f83167a">
+
+Evaluación:
+
+A v C: Verdadera si al menos uno de los operandos, A o C, es verdadero.
+
+-(A v C): Invierte el valor de verdad de (A v C).
+
+-(A v C) ^ B: Verdadera solo si ambos operandos, -(A v C) y B, son verdaderos.
+
+
+
+d. (B ^ C) ^ -(A)
+
+Definición:
+
+A: proposición
+
+B: proposición
+
+C: proposición
+
+B ^ C: conjunción de B y C
+
+-A: negación de A
+
+(B ^ C) ^ -(A): conjunción de la conjunción de B y C con la negación de A
+
+Tabla de verdad:
+
+<img width="610" alt="Captura de pantalla 2024-11-06 a la(s) 11 10 02 p  m" src="https://github.com/user-attachments/assets/822df541-9b48-49c9-87d6-47d61736974c">
+
+Evaluación:
+
+B ^ C: Verdadera solo si B y C son verdaderas.
+
+-A: Invierte el valor de verdad de A.
+
+(B ^ C) ^ -(A): Verdadera solo si ambos operandos, (B ^ C) y -A, son verdaderos.
+
+
+
+e. (M ^ -(A)) v (-I v -(C))
+
+Definición:
+
+A: proposición
+
+C: proposición
+
+I: proposición
+
+M: proposición
+
+-A: negación de A
+
+M ^ -A: conjunción de M y la negación de A
+
+-I: negación de I
+
+-C: negación de C
+
+-I v -C: disyunción de la negación de I con la negación de C
+
+(M ^ -(A)) v (-I v -(C)): disyunción de la conjunción de M y la negación de A con la disyunción de la negación de I con la negación de C
+
+
+Tabla de verdad:
+
+<img width="1048" alt="Captura de pantalla 2024-11-06 a la(s) 11 13 19 p  m" src="https://github.com/user-attachments/assets/50701e0f-c9b0-4237-bbdb-9bc8e05f5677">
 
