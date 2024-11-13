@@ -729,3 +729,45 @@ M ^ -A: conjunción de M y la negación de A<br>
 </body>
 </html>
 
+![Captura de pantalla 2024-11-12 a la(s) 8 43 13 p  m](https://github.com/user-attachments/assets/f5fe8d0a-8d20-46ab-b035-34c66bd7e6e4)
+
+
+
+# Función `recommendProduct`
+
+Esta función se utiliza para recomendar productos a un usuario basándose en su edad, si es miembro y su historial de compras.
+
+## Argumentos
+
+* **`age`**: Edad del usuario.
+* **`isMember`**: Indica si el usuario es miembro (true) o no (false).
+* **`purchaseHistory`**: Objeto que contiene el número de productos comprados por categoría:
+    * `tech`: Número de productos tecnológicos.
+    * `fashion`: Número de productos de moda.
+    * `other`: Número de otros productos.
+
+## Lógica de recomendación
+
+### Producto de alta tecnología
+
+Se recomienda un producto de alta tecnología si:
+
+* El usuario es miembro (`isMember`) y ha comprado al menos 5 productos tecnológicos (`purchaseHistory.tech >= 5`).
+* O si el usuario tiene entre 18 y 30 años (`age >= 18 && age <= 30`) y ha comprado 2 o más productos de moda (`purchaseHistory.fashion >= 2`).
+
+### Producto de moda
+
+Se recomienda un producto de moda si:
+
+* El usuario no es miembro (`!isMember`) y ha comprado al menos 3 productos en total.
+* O si el usuario tiene entre 25 y 40 años (`age >= 25 && age <= 40`).
+
+### Producto genérico
+
+Si no se cumple ninguna de las condiciones anteriores, se recomienda un producto genérico.
+
+
+## Ejemplo de uso
+
+```javascript
+console.log(recommendProduct(22, true, { tech: 6, fashion: 1, other: 2 })); // "Producto de alta tecnología"
