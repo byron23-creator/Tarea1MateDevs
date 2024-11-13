@@ -729,6 +729,12 @@ M ^ -A: conjunción de M y la negación de A<br>
 </body>
 </html>
 
+
+
+
+
+
+
 ![Captura de pantalla 2024-11-12 a la(s) 8 43 13 p  m](https://github.com/user-attachments/assets/f5fe8d0a-8d20-46ab-b035-34c66bd7e6e4)
 
 
