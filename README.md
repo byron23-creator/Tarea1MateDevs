@@ -633,7 +633,7 @@ M ^ -A: conjunción de M y la negación de A<br>
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Segunda Sección </title>
+  <title>Función evaluateRisk</title>
   <style>
     body {
       font-family: sans-serif;
