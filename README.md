@@ -628,3 +628,103 @@ M ^ -A: conjunción de M y la negación de A<br>
     </tr>
   </tbody>
 </table>
+
+
+![Captura de pantalla 2024-11-12 a la(s) 8 16 08 p  m](https://github.com/user-attachments/assets/ab085470-357a-4e9a-b147-938c5d3dd445)
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Función evaluateRisk</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Función <code>evaluateRisk</code></h1>
+
+<p>Esta función en JavaScript, <code>evaluateRisk</code>, evalúa el nivel de riesgo crediticio de un cliente bancario. Para ello, analiza cuatro parámetros principales:</p>
+
+<ul>
+  <li><b><code>income</code></b>: Ingresos anuales del cliente.</li>
+  <li><b><code>hasLoans</code></b>: Indica si el cliente posee préstamos activos.</li>
+  <li><b><code>latePayments</code></b>: Número de pagos atrasados del cliente.</li>
+  <li><b><code>isStudent</code></b>: Indica si el cliente es estudiante.</li>
+</ul>
+
+<h2>Parámetros</h2>
+
+<table>
+  <tr>
+    <th>Parámetro</th>
+    <th>Descripción</th>
+    <th>Tipo</th>
+  </tr>
+  <tr>
+    <td><code>income</code></td>
+    <td>Ingresos anuales del cliente.</td>
+    <td>Número</td>
+  </tr>
+  <tr>
+    <td><code>hasLoans</code></td>
+    <td>Indica si el cliente tiene préstamos activos (verdadero o falso).</td>
+    <td>Booleano</td>
+  </tr>
+  <tr>
+    <td><code>latePayments</code></td>
+    <td>Número de pagos que el cliente ha atrasado.</td>
+    <td>Número</td>
+  </tr>
+  <tr>
+    <td><code>isStudent</code></td>
+    <td>Indica si el cliente actualmente es estudiante (verdadero o falso).</td>
+    <td>Booleano</td>
+  </tr>
+</table>
+
+<h2>Lógica de evaluación</h2>
+
+<p>La función clasifica el nivel de riesgo en tres categorías: "High" (alto), "Moderate" (moderado) o "Low" (bajo).</p>
+
+<h3>1. Riesgo alto (<code>High</code>)</h3>
+
+<p>Se considera que un cliente representa un riesgo alto si se cumple alguna de las siguientes condiciones:</p>
+
+<ul>
+  <li>Tiene ingresos anuales inferiores a $20,000 y más de 3 pagos atrasados.</li>
+  <li>Es estudiante y tiene préstamos activos.</li>
+</ul>
+
+<h3>2. Riesgo moderado (<code>Moderate</code>)</h3>
+
+<p>Un cliente se clasifica como de riesgo moderado si cumple alguna de estas condiciones:</p>
+
+<ul>
+  <li>Sus ingresos anuales están entre $20,000 y $50,000, y tiene 2 o menos pagos atrasados.</li>
+  <li>Tiene préstamos activos, pero no es estudiante.</li>
+</ul>
+
+<h3>3. Riesgo bajo (<code>Low</code>)</h3>
+
+<p>Si un cliente no cumple ninguna de las condiciones anteriores, se le asigna un nivel de riesgo bajo.</p>
+
+<h2>Ejemplo de uso</h2>
+
+<pre><code>console.log(evaluateRisk(15000, true, 4, true));  // Output: "High" 
+</code></pre>
+
+</body>
+</html>
+
